@@ -2,7 +2,7 @@
  * Module dependencies
  */
 
-var debug = require('debug')('env-namespace');
+var debug = require('debug')('env-ns');
 var wf = require('whatever-format');
 
 const namespaces = {};
