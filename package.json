@@ -1,0 +1,28 @@
+{
+  "name": "env-ns",
+  "version": "1.0.0",
+  "description": "practical interface for namespaced configurations and environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mndvns/env-ns.git"
+  },
+  "keywords": [
+    "environment",
+    "variables",
+    "config"
+  ],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "whatever-format": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
